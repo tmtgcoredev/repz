@@ -1,0 +1,20 @@
+html, body { font-family: helvetica,sans-serif; height: 100%; }
+
+body { align-items: center; justify-content: center; }
+
+#navigation { background-color:#eee; position:absolute;top:0;right:0; }
+#navigation a { padding:5px; }
+
+#main { display:block; height:100%; width:100%; }
+#main aside { display: flex; height:100%; width:100%; }
+#main aside>div:first-child { background-color: #4ebce8; width:300px; }
+
+
+#main aside>div div { position:absolute; height:100%; width:380px; }
+#main aside div h2 { color:#fff; font-size: 2em; height:380px; line-height: 1.5; margin:50% 0; padding:60px 0 0; text-align: center; transform: rotate(270deg); }
+
+
+#main aside>div:last-child { display: flex; align-items: stretch; flex-wrap: wrap; width:100%; }
+#main aside div p { background-color: darkblue; min-width:200px;width:33%; margin:0; border:white solid 1px; }
+
+#test { height:100px; border:red solid 1px}
